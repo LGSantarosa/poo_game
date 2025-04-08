@@ -26,26 +26,6 @@ public class Arena {
 
         Batalha b = new Batalha(personagemSelecionado,inimigoSelecionado);
         b.iniciarBatalha();
-
-       /* while (esqueleto.getVida() > 1 && principal.getVida() > 1) {
-
-            System.out.println("O personagem ataca com " + principal.atacar() + " de dano");
-            esqueleto.setVida(esqueleto.getVida() - principal.atacar());
-            System.out.println("O esqueleto tem " + esqueleto.getVida() + " de vida");
-
-            System.out.println("O esqueleto ataca com " + esqueleto.atacar() + " de dano");
-            principal.setVida(principal.getVida() - esqueleto.atacar());
-            System.out.println("O personagem tem " + principal.getVida() + " de vida");
-
-            if (esqueleto.getVida() < 1) {
-                System.out.println("O esqueleto morreu");
-            }
-
-            if (principal.getVida() < 1) {
-                System.out.println("O personagem morreu");
-            }
-        }
-        */
     }
 }
 
